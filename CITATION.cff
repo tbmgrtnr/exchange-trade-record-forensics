@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the article listed under preferred-citation."
+type: software
+title: "Exchange Trade-Record Forensics"
+abstract: "Code implementing the tests of a forensic sequence for suspect parts of an exchange's self-reported trade record: Benford digit tests, benchmark comparison with a seeded bootstrap, a non-digit trade-size cross-check, placebo windows, and a script that reproduces the published values from Binance's public trade record."
+authors:
+  - family-names: Baumgartner
+    given-names: Tim
+    affiliation: "Ulm University"
+    orcid: "https://orcid.org/0000-0003-1491-341X"
+  - family-names: Guettler
+    given-names: Andre
+    affiliation: "Ulm University"
+    orcid: "https://orcid.org/0000-0003-2743-5250"
+license: MIT
+version: 1.0.0
+keywords:
+  - Benford's Law
+  - forensic finance
+  - trade records
+  - crypto exchanges
+  - market manipulation
+  - reproducibility
+preferred-citation:
+  type: article
+  title: "Trust in a trustless network: The case of the Bitcoin flash crash on May 19, 2021"
+  authors:
+    - family-names: Baumgartner
+      given-names: Tim
+    - family-names: Guettler
+      given-names: Andre
+      orcid: "https://orcid.org/0000-0003-2743-5250"
+  journal: "International Review of Financial Analysis"
+  year: 2026
+  doi: 10.1016/j.irfa.2026.105481
